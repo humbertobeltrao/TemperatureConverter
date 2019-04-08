@@ -17,7 +17,7 @@ public class ExampleUnitTest {
 
     @Test
     public void celToFah_isCorrect() {
-        assertEquals(32, ConverterUtils.celsiusToFahrenheit(0), 0.001);
+        assertEquals(3, ConverterUtils.celsiusToFahrenheit(0), 0.001);
     }
 
     @Test
