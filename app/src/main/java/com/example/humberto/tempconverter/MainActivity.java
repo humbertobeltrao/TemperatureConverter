@@ -11,6 +11,7 @@ public class MainActivity extends Activity {
 
     EditText editText;
     TextView textView;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
