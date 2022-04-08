@@ -49,7 +49,7 @@ public class ExampleInstrumentedTest {
     @Test
     public void ensureCelsiusToFahIsChanged() {
         onView(withId(R.id.temp_input))
-                .perform(typeText("0"));
+                .perform(typeText("0.0"));
         Espresso.closeSoftKeyboard();
         onView(withId(R.id.cel_to_fah)).perform(click());
 
